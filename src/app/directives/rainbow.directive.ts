@@ -1,7 +1,7 @@
 import { Directive, HostBinding, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appRainbow]',
+  selector: '[appRainbow]'
 })
 export class RainbowDirective {
   possibleColors = [
