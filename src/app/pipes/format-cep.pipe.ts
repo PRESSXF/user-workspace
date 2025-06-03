@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'formatCep',
+  name: 'formatCep'
 })
 export class FormatCepPipe implements PipeTransform {
   transform(value: string): string {
